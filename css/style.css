@@ -1,0 +1,103 @@
+a{
+    text-decoration: none;
+}
+.containar{
+    width: 100%;
+    height: 100vh;
+}
+.heading{
+    margin-bottom: 50px;
+
+}
+.fix-width{
+    width: 960px;
+    margin: 0 auto;
+}
+.header{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+   
+
+}
+.header .menu-item ul{
+    display: flex;
+    
+}
+.menu-item ul li{
+    margin: 20px;
+    list-style: none;
+}
+.menu-item ul li a{
+    text-decoration: none;
+    color: #000;
+}
+
+
+.heading-banner{
+    
+    display: flex;
+    justify-content: center;
+    
+    align-items: center;
+}
+.left-item h1{
+    font-size: 50px;
+
+}
+.left-item p{
+    line-height: 20px;
+    margin-bottom: 40px;
+}
+.button-primary{
+    border: none;
+    padding: 15px 20px;
+    background-color: lightcoral;
+    color: #fff;
+    border-radius: 50px;
+}
+.fa-arrow-right{
+    margin-left: 20px;
+    
+}
+.right-item img{
+    width: 400px;
+}
+
+.title{
+    text-align: center;
+}
+.title{
+    font-size: 20px;
+}
+.view-item{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    gap: 20px;
+    
+}
+.card-item{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 15px;
+    border-radius: 10px;
+}
+.card-item img{
+    width: 100%;
+}
+.fa-star{
+    color: orange;
+}
+.fa-star-half-alt{
+    color: orange;
+}
+.non-border-button{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 50px;
+    color: lightcoral;
+}
