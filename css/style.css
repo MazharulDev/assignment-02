@@ -18,6 +18,7 @@ a{
 }
 /* header part  */
 header{
+    
     height: 100vh;
 }
 .containar{
@@ -214,9 +215,16 @@ footer{
 }
 /* footer end  */
 
+/* Resposive  */
 
-
-@media only screen and (max-width:688px) {
+@media only screen and (max-width:576px) {
+    .containar{
+        width: 80%;
+    }
+    .right-item img{
+        width: 80%;
+        
+    }
     .heading-banner{
         display: block;
         padding: 50px ;
@@ -224,6 +232,16 @@ footer{
         margin: 0 auto;
     
     
+    }
+    .view-item{
+        grid-template-columns: 1fr;
+    }
+    .non-border-button a{
+        text-align: center;
+    }
+    .form-section{
+        display: block;
+        justify-content: center;
     }
 
 
