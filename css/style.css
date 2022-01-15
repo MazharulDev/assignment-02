@@ -21,9 +21,13 @@ header{
     
     height: 100vh;
 }
+.header-title{
+    font-size: 18px;
+    color: #3989cf;
+}
 .wrapper{
     width: 80%;
-    margin: 0 auto;
+    margin: 30px auto;
 }
 .containar{
     width: 100%;
@@ -57,7 +61,7 @@ header{
 }
 .menu-item ul li a{
     text-decoration: none;
-    color: #000;
+    color: #1473c7;
 }
 
 
@@ -75,13 +79,14 @@ header{
     color: #fff;
     margin-bottom: 30px;
 
-    background: linear-gradient(to right, #1473c7 50%, #25abe8 60%);
+    background: linear-gradient(to right, #1473c7 50%, #25abe8 50%);
     background-size: auto auto;
     background-size: 200% auto;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    animation: animation 1.5s linear infinite;
+    animation: animation 3s linear infinite;
     display: inline-block;
+
 
 }
 @keyframes animation {
@@ -104,6 +109,7 @@ header{
     box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.6);
     cursor: pointer;
     position: relative;
+    font-size: 15px;
 
 }
 .button-primary:active{
@@ -122,6 +128,8 @@ header{
 
 .title{
     text-align: center;
+    margin-bottom: 30px;
+    color: #1473c7;
 }
 .title{
     font-size: 20px;
