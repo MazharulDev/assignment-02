@@ -261,14 +261,23 @@ footer{
         height: 100%;
         
     }
+    .header{
+        display: none;
+    }
+    .left-item h1{
+        display: inline-block;
+       margin: 0 auto;
+    }
    
     .right-item img{
         width: 80%;
-        margin: 20px;
+        
+ 
         
     }
     .heading-banner{
-        display: block;
+        flex-direction: column-reverse;
+
         
         
         
@@ -310,9 +319,15 @@ footer{
         justify-content: center;
     }
     .heading-banner{
-        display: block;
-        
+        flex-direction: column-reverse;
+        margin-bottom: 50px;
     }
+    .left-item h1{
+        text-align: center;
+    }
+       
+    
+     
     
 }
 /* Desktop responsive  */
