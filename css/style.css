@@ -134,7 +134,7 @@ header{
     color: lightcoral;
 }
 .non-border-button a{
-    color: lightcoral;
+    color: #348AC7;
 }
 /* form  */
 .form-section{
@@ -162,7 +162,7 @@ header{
     font-size: 18px;
     font-family: inherit;
     outline: 0;
-    border: 1px solid #f5b3d7;
+    border: 1px solid #348AC7;
 }
 
 footer{
