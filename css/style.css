@@ -1,16 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #fff;
+}
 a{
     text-decoration: none;
 }
+header{
+    height: 100vh;
+}
 .containar{
     width: 100%;
-    height: 100vh;
+    
 }
 .heading{
     margin-bottom: 50px;
 
 }
 .fix-width{
-    width: 960px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 .header{
@@ -43,9 +53,11 @@ a{
     justify-content: center;
     
     align-items: center;
+    gap: 150px;
 }
 .left-item h1{
     font-size: 50px;
+    margin-bottom: 30px;
 
 }
 .left-item p{
@@ -88,6 +100,16 @@ a{
 .card-item img{
     width: 100%;
 }
+.card-item h3{
+    font-size: 25px;
+}
+.card-item h4{
+    font-size: 20px;
+    margin: 10px 0;
+}
+.card-item p{
+    
+}
 .fa-star{
     color: orange;
 }
@@ -104,7 +126,10 @@ a{
 .non-border-button a{
     color: lightcoral;
 }
-
+footer{
+    margin: 0;
+    padding: 0;
+}
 
 
 .footer{
@@ -114,15 +139,20 @@ a{
     text-align: center;
     margin-top: 20px;
     color: #fff;
+   
     
 
 
 }
 .footer p{
-    line-height: 10px;
+    line-height: 20px;
+    
 }
 .footer h3{
    padding-top: 50px;
+}
+.social-icon{
+    margin-top: 10px;
 }
 .social-icon a{
     color: #fff;
@@ -130,4 +160,5 @@ a{
     padding: 7px;
     border-radius: 50px;
     margin-right: 5px;
+    
 }
