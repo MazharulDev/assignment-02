@@ -21,6 +21,10 @@ header{
     
     height: 100vh;
 }
+.wrapper{
+    width: 80%;
+    margin: 0 auto;
+}
 .containar{
     width: 100%;
     
@@ -30,7 +34,7 @@ header{
 
 }
 .fix-width{
-    max-width: 1200px;
+    
     margin: 0 auto;
 }
 .header{
@@ -270,6 +274,17 @@ footer{
     .heading-banner{
         display: block;
         
+    }
+    
+}
+/* Desktop responsive  */
+@media only screen and (min-width:769px) and (max-width:1400px) {
+    .wrapper{
+        min-width: 769px;
+        max-width: 1400px;
+    }
+    .left-item img{
+        width: 89%;
     }
     
 }
