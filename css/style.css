@@ -254,12 +254,16 @@ footer{
 /* Mobile view Resposive  */
 
 @media only screen and (max-width:576px) {
+
     .containar{
         width: 80%;
         height: 100%;
+        
     }
+   
     .right-item img{
         width: 80%;
+        margin: 20px;
         
     }
     .heading-banner{
